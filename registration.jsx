@@ -1,49 +1,43 @@
+import Login from'./login.jsx';
 function Registration(){
-
     return(
-        <>
-         <div class="row mb-3">
-              <label for="first" class="col-sm-1 col-form-label">First Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control w-25" id="first" />
-              </div>
-              </div>
-              <div class="row mb-3">
-              <label for="last" class="col-sm-1 col-form-label">Last Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control w-25" id="last" />
-              </div>
-            </div>
-            <div class="row mb-3">
-          <label for="inputEmail3" class="col-sm-1 col-form-label">Email:</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control w-25" id="inputEmail3" />
-          </div>
-        </div>
-        <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-1 col-form-label">Password:</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control w-25" id="inputPassword3" />
-          </div>
-        </div>
-        <div class="row mb-3">
-              <label for="father" class="col-sm-1 col-form-label">Father Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control w-25" id="father" />
-              </div>
-            </div>
-            <div class="row mb-3">
-              <label for="mother" class="col-sm-1 col-form-label">Mother Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control w-25" id="mother" />
-              </div>
-            </div>
-        
-            </>
+        < div class='registration'>
+        <h1>Registration Form</h1>
+        <div class="mb-3 registration">
+        <label for="formGroupExampleInput" class="form-label">First Name</label>
+        <input type="text" class="form-control w-25 " id="formGroupExampleInput" placeholder="Enter First Name" />
+       </div>
+       <div class="mb-3">
+       <label for="formGroupExampleInput" class="form-label ">Last Name</label>
+      <input type="text" class="form-control w-25" id="formGroupExampleInput" placeholder="Enter Last Name" />
+      </div>
+      <div class="mb-3">
+       <label for="formGroupExampleInput" class="form-label ">Father Name</label>
+      <input type="text" class="form-control w-25" id="formGroupExampleInput" placeholder="Enter Father Name" />
+      </div>
+      <div class="mb-3">
+       <label for="formGroupExampleInput" class="form-label ">Mother Name</label>
+      <input type="text" class="form-control w-25" id="formGroupExampleInput" placeholder="Enter Mother Name" />
+      </div>
+      <div class="mb-3">
+       <label for="formGroupExampleInput" class="form-label ">Email Id</label>
+      <input type="text" class="form-control w-25" id="formGroupExampleInput" placeholder="Email address" />
+      </div>
+      <div>
+       <label for="formGroupExampleInput" class="form-label ">Gender</label>
+       </div>
+       <div>
+      <input type="radio" name='gender'id="formGroupExampleInput"/>Male
+      <input type="radio" name='gender' id="formGroupExampleInput"/>FeMale
+      <input type="radio" name='gender'id="formGroupExampleInput"/>Others
+      </div>
+      <div>
+          <button class='login'>Login</button>
+      <button class='signup'>signUp</button>
+    </div>
 
+      </div>
 
-        
-        
     );
 }
 export default Registration;
