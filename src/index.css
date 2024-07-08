@@ -1,0 +1,20 @@
+.signup{
+    margin-left: 10%;
+}
+.login{
+    margin-top: 10px;
+}
+.cam{
+    align-items: center;
+    background-color:lightgreen;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10%;
+}
+.login,.signup{
+    border: none;
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+
+}
